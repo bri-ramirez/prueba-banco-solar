@@ -1,0 +1,19 @@
+{
+  "name": "banco-solar",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --watch src/server.js "
+  },
+  "author": "Briggitte Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
